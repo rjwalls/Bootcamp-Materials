@@ -16,6 +16,8 @@ http://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/06-machine-co
 ###### CMU Bomb Slides  
 http://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/recitations/rec04.pdf
 
+###### RPI Modern Binary Exploitation
+http://security.cs.rpi.edu/courses/binexp-spring2015/
 ### GDB Debugger
 Cheat Sheet: http://darkdust.net/files/GDB%20Cheat%20Sheet.pdf  
 Tutorial: http://www.tutorialspoint.com/gnu_debugger/
