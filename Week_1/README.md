@@ -21,7 +21,9 @@ http://security.cs.rpi.edu/courses/binexp-spring2015/
 ### GDB Debugger
 Cheat Sheet: http://darkdust.net/files/GDB%20Cheat%20Sheet.pdf  
 Tutorial: http://www.tutorialspoint.com/gnu_debugger/
-
+### Extras
+###### Why are special tools required to ascertain the differences between two related binary code files?
+https://reverseengineering.stackexchange.com/questions/1902/why-are-special-tools-required-to-ascertain-the-differences-between-two-related
 ## Link to Bombs and PWNABLES
 ###### CMU Bombs
 http://csapp.cs.cmu.edu/2e/bomb32.tar  
