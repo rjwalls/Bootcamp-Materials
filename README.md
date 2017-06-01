@@ -1,3 +1,19 @@
+# Working Schedule
+
+
+ Week | Topics |Leads
+------|--------|---------
+5/30-6/6| Bomb Lab/ PWNABLES | Jeff, Robert
+6/7-6/13| PWNABLES/CRACKME | Robert
+6/14-6/20| Crypto | Ben
+6/21-6/27| Web/ Packets | TBA
+6/28-7/4| Forensics/ Stego |Jake
+7/5-7/11| POLICTF? (7/7-7/9)| All
+7/12-7/18| TBA | TBA
+7/19-7/25| TBA |  TBA
+7/26-8/1| TBA |  TBA
+
+
 # General Security Blogs
 #### Slashdot Security
 
