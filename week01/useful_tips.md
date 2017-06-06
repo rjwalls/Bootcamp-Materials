@@ -7,3 +7,10 @@
 ### Assembly Links
 ###### LEA vs MOV
 https://stackoverflow.com/questions/1658294/whats-the-purpose-of-the-lea-instruction
+
+
+### Common Pitfalls when Writing Exploits
+http://www.mathyvanhoef.com/2012/11/common-pitfalls-when-writing-exploits.html
+
+### Stack Canary Values
+https://xorl.wordpress.com/2010/10/14/linux-glibc-stack-canary-values/
