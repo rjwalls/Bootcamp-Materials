@@ -104,3 +104,13 @@ you are in interactive mode, press `v` to open up the file in VI. Once in VI,
 you are free to open and read any file accessible with the current user's
 permissions: `:e /etc/bandit_pass/bandit26`
  - 5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
+
+You can also launch a shell from inside of vi:
+
+```
+:set shell=/bin/bash
+:sh
+```
+
+By default, the `:sh` command in Vi uses the SHELL environment variable. That
+won't work for us in this case so we have to set it manually.
