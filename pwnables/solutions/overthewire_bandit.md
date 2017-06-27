@@ -1,8 +1,9 @@
 # About
 
 
-Solutions for the [Over the Wire Bandit
-challenges][http://overthewire.org/wargames/bandit/bandit2.html].
+Solutions for the [Over the Wire Bandit challenges][bandit].
+
+[bandit]:http://overthewire.org/wargames/bandit/bandit2.html
 
 # Solutions
 
