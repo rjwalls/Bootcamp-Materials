@@ -50,3 +50,4 @@ build-iPhoneSimulator/
 .rvmrc
 working/
 .DS_Store
+.gdb_history
